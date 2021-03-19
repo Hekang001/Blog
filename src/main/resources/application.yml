@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    mode: HTML
+#    当前活跃的配置
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+
+comment.avatar: /images/avatar.png
+
